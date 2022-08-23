@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+
+<body>
+  <div class="options-overlay"></div>
+  <div class="options-block">
+    <button class="close-options"></button>
+    <div class="opt-form">
+      <h3 class="hSelect">Select the application language</h3>
+      <div class="opt-lang">
+        <div class="lang-ru"></div>
+        <div class="lang-eng"></div>
+      </div>
+
+      <div class="our-group-all">
+        <h3 class="hHide">Hide Blocks</h3>
+        <div class="our-group">
+          <div class="vis-group">
+            <div class="opt-vis opt-vis-time">Time</div>
+            <div class="opt-vis opt-vis-date">Date</div>
+            <div class="opt-vis opt-vis-meet">Greeting</div>
+            <div class="opt-vis opt-vis-quote">Quote of the day</div>
+            <div class="opt-vis opt-vis-weather">Weather forecast</div>
+            <div class="opt-vis opt-vis-media">Audio Player</div>
+          </div>
+
+          <div class="switch-group">
+            <div class="switch-btn switch-btn-time"></div>
+            <div class="switch-btn switch-btn-date"></div>
+            <div class="switch-btn switch-btn-meet"></div>
+            <div class="switch-btn switch-btn-quote"></div>
+            <div class="switch-btn switch-btn-weather"></div>
+            <div class="switch-btn switch-btn-media"></div>
+          </div>
+        </div>
+      </div>
+      <button class="reset-options">By default</button>
+      <button class="ok-options">Apply</button>
+    </div>
+
+  </div>
+  <header class="header">
+    <div class="notList">
+      <div class="player">
+        <div class="play-now"></div>
+        <div class="timeline">
+          <div class="progress"></div>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-current"></div>
+          <div class="progress-duration"></div>
+        </div>
+        <div class="volume">
+          <div class="icon-vol"></div>
+          <div class="timeline2">
+            <div class="progress2"></div>
+          </div>
+        </div>
+        <div class="player-controls">
+          <button class="play-prev player-icon"></button>
+          <button class="play player-icon"></button>
+          <button class="play-next player-icon"></button>
+        </div>
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" placeholder="[Enter name]" />
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="blockQuote">
+      <button class="change-quote"></button>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    <div class="icon-options"></div>
+    <div class="footer-years">@dimaPolonez (c) 2022</div>
+    <div class="icon-array">
+      <a href="https://github.com/dimaPolonez" target="_blank"><img src="./assets/img/github.png" alt="" width="60"></a>
+      <a href="https://rs.school/js/" target="_blank"><img src="./assets/img/rs_school_js.svg" alt="rs.school" width="150"></a>
+    </div>
+  
+  </footer>
+  <script type="module" src="./assets/js/script.js"></script>
+</body>
+
+
+</html>

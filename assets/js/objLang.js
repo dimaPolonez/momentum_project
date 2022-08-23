@@ -1,0 +1,17 @@
+export let weatherArrEng = {
+    langWeather: 'en',
+    tWeatherCity: 'Minsk',
+    weatherWindT1: 'Wind speed: ',
+    weatherWindT2: ' m/s',
+    weatherHumT: 'Humidity: ',
+    timeDate: 'en-US',
+    hoursM: 'Morning',
+    hoursD: 'Day',
+    hoursE: 'Evening',
+    hoursN: 'Night',
+    greetingT: 'Good ',
+    greetingTR: 'Good ',
+    quotesEn: './assets/js/data.json',
+    mediaPlay: 'Playing: ',
+    errorCity: 'city is not found',
+  }
